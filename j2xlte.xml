@@ -18,12 +18,12 @@
 	<project path="hardware/samsung" name="LineageOS/android_hardware_samsung" remote="github" revision="cm-14.1"/>
 	<project path="packages/apps/SamsungServiceMode" name="LineageOS/android_packages_apps_SamsungServiceMode" remote="github" revision="cm-14.1"/>
     
-	<project path="hardware/sprd" name="j2xlte-development/android_hardware_sprd" remote="github" revision="cm-14.1"/>
+	<!-- <project path="hardware/sprd" name="j2xlte-development/android_hardware_sprd" remote="github" revision="cm-14.1"/> -->
     
-  <project path="device/samsung/j2xlte" name="j2xlte-development/device_tree-j2xlte" remote="github" revision="cm-14.1"/>
-	<project path="kernel/samsung/j2xlte" name="j2xlte-development/DO_NOT_USE" remote="github" revision="cm-14.1-build"/>
+  	<project path="device/samsung/j2xlte" name="J2xlteDev/device_tree-j2xlte" remote="github" revision="cm-14.1"/>
+	<project path="kernel/samsung/j2xlte" name="J2xlteDev/DO_NOT_USE" remote="github" revision="cm-14.1-build"/>
 	
-  <project path="vendor/samsung/j2xlte" name="j2xlte-development/vendor_tree-j2xlte" remote="github" revision="cm-14.1"/>
+  	<project path="vendor/samsung/j2xlte" name="J2xlteDev/vendor_tree-j2xlte" remote="github" revision="cm-14.1"/>
 	<project path="vendor/samsung/common" name="djeman/android_vendor_samsung_common" remote="github" revision="cm-14.1"/>
-	<project path="vendor/sprd" name="djeman/android_vendor_sprd" remote="github" revision="cm-14.1"/>
+	<project path="vendor/sprd" name="J2xlteDev/vendor_tree-sprd" remote="github" revision="cm-14.1"/>
 </manifest>
