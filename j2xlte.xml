@@ -14,7 +14,8 @@
 	<project path="external/stlport" name="LineageOS/android_external_stlport" remote="github" revision="cm-14.1"/>
 	<project path="external/busybox" name="LineageOS/android_external_busybox" remote="github" revision="cm-14.1"/>
 	<project path="external/sony/boringssl-compat" name="LineageOS/android_external_sony_boringssl-compat" remote="github" revision="cm-14.1"/>
-    
+    	<project path="omnirom/android_bootable_recovery" name="bootable/recovery-twrp" remote="github" revision="android-7.1"/>
+	
 	<project path="hardware/samsung" name="LineageOS/android_hardware_samsung" remote="github" revision="cm-14.1"/>
 	<project path="packages/apps/SamsungServiceMode" name="LineageOS/android_packages_apps_SamsungServiceMode" remote="github" revision="cm-14.1"/>
     
